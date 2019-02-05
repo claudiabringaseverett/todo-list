@@ -1,0 +1,40 @@
+
+  #header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #header img {
+    max-width: 300px;
+    border: 1px solid black;
+    box-shadow: 2px 5px 2px rgb(166, 166, 166);
+  }
+
+  h1 {
+    font-size: 1.2em;
+    color: #999;
+    margin-bottom: 0;
+  }
+  h2 {
+    font-size: 2em;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-top: 5px;
+    float:right;
+    background-color: #eee;
+    border-radius: 4px;
+    
+  }
+  nav a:visited, a:link {
+    color: #607d8b;
+  }
+  nav a:hover {
+    color: goldenrod;
+    background-color: #cfd8dc;
+  }
+  nav a.active {
+    color: gol;
+  }
